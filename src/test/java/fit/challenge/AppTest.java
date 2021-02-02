@@ -16,7 +16,7 @@ public class AppTest
     @Test
     public void shouldHaveCalculateAsStaticMethodOfImcCalculatorClass()
     {
-        String resultado = ImcCalculator.calculate(88, 1.77); //28.08
+        String resultado = ImcCalculator.calculate(88, 1.77);
         Assert.assertEquals(resultado, "Sobrepeso");
     }
 
